@@ -9,10 +9,10 @@ console.log(mensNames);
 console.log('Wszystkie imiona razem :');
 console.log(allNames);
 
-var newName = 'Arek';  // Sprawdź Marian
+var newName = 'Marian';  // Sprawdź Kasia
 console.log('Dodajmy imię: ' + newName);
 if (allNames.indexOf(newName) == -1) {
-	allNames.splice(4, 0, newName)
+	allNames.splice((allNames.length / 2), 1, newName)
 	console.log (allNames)
 } else {
 	console.log('Imię się powtarza, wybierz inne')
